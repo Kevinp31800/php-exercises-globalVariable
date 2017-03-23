@@ -7,9 +7,10 @@
 <body>
 	<?php 
 
-	echo $_SERVER['HTTP_USER_AGENT'].'</br> ';
-	echo $_SERVER["REMOTE_ADDR"].'</br>';
-	echo $_SERVER["SERVER_NAME"].'</br> ';
+	echo $_SERVER['HTTP_USER_AGENT'].' ';
+	echo $_SERVER["REMOTE_ADDR"].' ';
+	echo $_SERVER["SERVER_NAME"].' ';
+	echo "<a href='server.php'>page suivante</a>";
 
 	?>
 </body>
