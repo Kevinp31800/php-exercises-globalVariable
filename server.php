@@ -1,8 +1,8 @@
 <?php 
 
 session_start();
-$_SESSION['prenom']='Vous';
-$_SESSION['nom']='TAISEZ';
+$_SESSION['prenom']='Al';
+$_SESSION['nom']='COLLIQUE';
 $_SESSION['age']=45;
 ?>
 <!DOCTYPE html>
@@ -13,5 +13,6 @@ $_SESSION['age']=45;
 </head>
 <body>
 	<a href='server2.php'>page suivante</a>"
+	<a href='formulaire.php'>formulaire</a>"
 </body>
 </html>

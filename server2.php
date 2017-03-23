@@ -7,9 +7,11 @@
 <body>
 	<?php 
 	session_start();
-	echo $_SESSION['nom']." ";
 	echo $_SESSION['prenom']." ";
+	echo $_SESSION['nom']." ";
 	echo $_SESSION['age'];
 	?>
+	<a href='server.php'>page precedente</a>"
+
 </body>
 </html>
